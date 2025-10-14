@@ -1,6 +1,7 @@
 aiocron
 pymongo[srv]==4.3.3
 pymongo
+Pyrogram
 pyrofork
 TgCrypto-pyrofork
 pillow
