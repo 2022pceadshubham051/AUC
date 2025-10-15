@@ -1,7 +1,74 @@
-aiocron
-pymongo[srv]==4.3.3
+# --- Telegram & Async Framework ---
+python-telegram-bot==20.7
+aiohttp
+asyncio
+
+# --- Web Server / Deployment ---
+Flask
+gunicorn
+Werkzeug
+requests
+urllib3
+python-dotenv
+pytz
+
+# --- Data Handling & Utilities ---
+pandas
+numpy
+openpyxl
+xlrd
+xlsxwriter
+csvkit
+json5
+
+# --- Logging & Console Enhancements ---
+colorama
+rich
+loguru
+tqdm
+
+# --- Image / Media Support ---
+Pillow
+qrcode
+emoji
+opencv-python
+imageio
+
+# --- AI / NLP / Automation (optional advanced features) ---
+transformers
+torch
+sentencepiece
+regex
+
+# --- PDF / File Generation ---
+reportlab
+fpdf
+pypandoc
+
+# --- Database & Storage (optional integrations) ---
 pymongo
-pyrogram
-pyrofork
-TgCrypto-pyrofork
-pillow
+firebase-admin
+sqlalchemy
+tinydb
+
+# --- Time & Scheduling ---
+schedule
+apscheduler
+humanfriendly
+python-dateutil
+
+# --- Testing / Debugging ---
+pytest
+httpx
+
+# --- Compression / Archiving ---
+zipfile36
+
+# --- Security / Encryption (optional) ---
+cryptography
+pyjwt
+
+# --- Miscellaneous Utilities ---
+dataclasses
+typing-extensions
+psutil
