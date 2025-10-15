@@ -2,6 +2,9 @@
 python-telegram-bot==20.7
 aiohttp
 asyncio
+pyrogram==2.0.106
+TgCrypto
+
 
 # --- Web Server / Deployment ---
 Flask
