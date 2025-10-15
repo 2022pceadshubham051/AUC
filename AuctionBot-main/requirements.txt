@@ -1,10 +1,10 @@
+# --- Telegram Framework ---
 # --- Telegram & Async Framework ---
 python-telegram-bot==20.7
 aiohttp
 asyncio
 pyrogram==2.0.106
 TgCrypto
-
 
 # --- Web Server / Deployment ---
 Flask
@@ -14,64 +14,50 @@ requests
 urllib3
 python-dotenv
 pytz
+aiohttp
+asyncio
 
-# --- Data Handling & Utilities ---
+# --- Data Handling ---
 pandas
 numpy
 openpyxl
-xlrd
 xlsxwriter
 csvkit
 json5
 
-# --- Logging & Console Enhancements ---
+# --- Logging / Console Output ---
 colorama
 rich
 loguru
 tqdm
 
-# --- Image / Media Support ---
+# --- Image & File Support ---
 Pillow
 qrcode
-emoji
-opencv-python
 imageio
-
-# --- AI / NLP / Automation (optional advanced features) ---
-transformers
-torch
-sentencepiece
-regex
 
 # --- PDF / File Generation ---
 reportlab
 fpdf
 pypandoc
 
-# --- Database & Storage (optional integrations) ---
+# --- Scheduler / Timers ---
+schedule
+apscheduler
+python-dateutil
+humanfriendly
+
+# --- Database (optional) ---
 pymongo
 firebase-admin
 sqlalchemy
 tinydb
 
-# --- Time & Scheduling ---
-schedule
-apscheduler
-humanfriendly
-python-dateutil
-
-# --- Testing / Debugging ---
-pytest
-httpx
-
-# --- Compression / Archiving ---
-zipfile36
-
-# --- Security / Encryption (optional) ---
+# --- Security / JWT ---
 cryptography
 pyjwt
 
-# --- Miscellaneous Utilities ---
+# --- Misc Utilities ---
 dataclasses
 typing-extensions
 psutil
